@@ -1,0 +1,124 @@
+console.log("file attached successfully");
+
+// pretend that this response is coming from the server
+
+/*const students = [
+    {name: "pravin", subject: "javascript"},
+    {name: "saurabh" , subject: "machine learning"}
+]
+
+function enrollStudents (student){
+    setTimeout(function() {
+        students.push(student);
+        console.log("Student has been enrolled");
+        callback();
+    }, 1000);
+}
+
+function getStudents(){ 
+    setTimeout(function() {
+        let str = "";
+        students.forEach(function(student) {
+            str += `<li> ${student.name}</li>`
+        });
+
+        document.getElementById('students').innerHTML = str;
+        console.log("Students have been fetched");
+    }, 5000);
+}
+*/
+
+
+// x = findMax(1, 123, 500, 115, 44, 88);
+
+/*function findMax() {
+    let max = -Infinity;
+    for(let i=0;i<arguments.length;i++){
+        if(arguments[i] > max){
+            max = arguments[i];
+        }
+    }
+
+    return max;
+}*/
+
+/*function findMax(){
+    let sum = 0;
+    for(let i=0; i<arguments.length; i++){
+        sum += arguments[i];
+    }
+    return sum;
+}
+
+console.log(findMax(x));
+*/
+
+
+// immediately invoked  function
+// (function (){
+//     console.log("Welcome to javscript course");
+//     alert("Hello World");
+// })();
+
+// Object
+
+// let person = {
+//     firstName : "pravin",
+//     lastName : "shelke"
+// };
+
+// person.age = 19;
+
+// person.sayHello = function () {
+//     console.log("hello !");
+// }
+
+// let txt = person.sayHello;
+
+// console.log(txt);
+
+
+// function getcube(){
+//     var num = document.getElementById('num').value;
+//     if(num == 0){
+//         alert("Checked the number");
+//     }
+//     else{
+//         var cube = parseInt(num*num*num);
+//         alert(cube);
+//     }
+// }
+
+// function getcube1(){
+//     var number = document.form1.value.name;
+
+//     if(number == 0){
+//         alert("please check the number");
+//     }
+
+//     else{
+//         var sum = parseInt(number+number+number);
+//         alert(sum);
+//     }
+// }
+
+/*function showcommentform(){
+    var data = `Name: <input type='text' name='name'> 
+    <br> Comment:<br> <textarea rows='5' cols='80'></textarea> <br> <input type='submit' value='post Comment'>`;
+    document.getElementById('mylocation').innerHTML = data;
+}*/
+
+/*function validate(){
+    var msg;
+    if(document.myForm.userPass.value.length>5){
+        msg="good";
+    }
+    else{
+        msg="poor";
+    }
+    document.getElementById('mylocation').innerHTML=msg;
+}
+*/
+
+
+// form validation
